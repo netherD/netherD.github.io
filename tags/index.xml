@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Shelter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 26 Nov 2019 10:27:31 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 26 Nov 2019 19:13:49 +0800</lastBuildDate>
     
 	<atom:link href="https://netherd.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>红楼梦</title>
+      <link>https://netherd.github.io/tags/%E7%BA%A2%E6%A5%BC%E6%A2%A6/</link>
+      <pubDate>Tue, 26 Nov 2019 19:13:49 +0800</pubDate>
+      
+      <guid>https://netherd.github.io/tags/%E7%BA%A2%E6%A5%BC%E6%A2%A6/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>hugo</title>

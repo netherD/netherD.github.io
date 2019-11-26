@@ -65,7 +65,7 @@ Hugo编译运行起来确实要比Hexo速度快很多；
 
 <meta itemprop="datePublished" content="2019-11-26T10:27:31&#43;08:00" />
 <meta itemprop="dateModified" content="2019-11-26T10:27:31&#43;08:00" />
-<meta itemprop="wordCount" content="494">
+<meta itemprop="wordCount" content="614">
 
 
 
@@ -153,8 +153,8 @@ Hugo编译运行起来确实要比Hexo速度快很多；
         <div class="post-category">
             <a href="/categories/blog/"> Blog </a>
             </div>
-          <span class="more-meta"> 494 words </span>
-          <span class="more-meta"> 1 min read </span>
+          <span class="more-meta"> 614 words </span>
+          <span class="more-meta"> 2 mins read </span>
         
       </div>
     </header>
@@ -162,7 +162,13 @@ Hugo编译运行起来确实要比Hexo速度快很多；
     <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">Contents</h2>
   <div class="post-toc-content always-active">
-    
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#修改图标">修改图标</a></li>
+<li><a href="#部署到github">部署到GitHub</a></li>
+<li><a href="#注意的地方">注意的地方</a></li>
+</ul>
+</nav>
   </div>
 </div>
     <div class="post-content">
@@ -175,34 +181,66 @@ Hugo编译运行起来确实要比Hexo速度快很多；
 <li>作为一个只是自己自言自语的角落，样式什么的也就那样，不是很重要。</li>
 </ul>
 
-<ul>
-<li><strong>修改图标</strong>：将图标放到<code>static</code>文件夹，修改<code>layout-partials-head.html</code> 中<code>&lt;!-- Favicon and Touch icons --&gt;</code>的文件配置名称即可。</li>
+<h1 id="修改图标">修改图标</h1>
 
-<li><p><strong>部署到GitHub</strong>：
-使用<code>hugo</code> 命令生成静态网站，默认所有的 <code>HTML</code> 文件都放在 <code>public</code> 目录，只需要将 <code>publlic</code> 中的内容同步到GitHub的Blog项目中.</p>
+<p>将图标放到<code>static</code>文件夹，修改<code>layout-partials-head.html</code> 中<code>&lt;!-- Favicon and Touch icons --&gt;</code>的文件配置名称即可。</p>
 
-<p>别忘了到<code>config.toml</code>文件里把<code>baseURL</code>修改为<code>github</code>的博客仓库地址。</p>
-
-<p>初次部署：</p>
+<h1 id="部署到github">部署到GitHub</h1>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
+<pre class="chroma"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
 </span></pre></td>
 <td class="lntd">
-<pre class="chroma">$ cd public
+<pre class="chroma">使用`hugo` 命令生成静态网站，默认所有的 `HTML` 文件都放在 `public` 目录，只需要将 `publlic` 中的内容同步到GitHub的Blog项目中.
+
+别忘了到`config.toml`文件里把`baseURL`修改为`github`的博客仓库地址。
+
+初次部署：
+```
+$ cd public
 $ git init
 $ git remote add origin https://github.com/XXX/XXX.github.io.git
 $ git add -A
 $ git commit -m &#34;first commit&#34;
-$ git push -u origin master</pre></td></tr></table>
+$ git push -u origin master
+```
+之后更新文章并生成好静态页面以后，就可以使用 Git push 来同步了
+```
+$ cd public
+$ git add .
+$ git status
+$ git commit -m &#34;post&#34;
+$ git push
+```
+部署到GitHub可能不会立刻生效，晚上怎么弄都显示没有url地址，早上醒来一看居然好了~~~</pre></td></tr></table>
 </div>
 </div>
-<p>之后更新文章并生成好静态页面以后，就可以使用 Git push 来同步了</p>
+<h1 id="注意的地方">注意的地方</h1>
+
+<ul>
+<li><p>由于静态源文件最终都编译成<code>/dist</code>中的文件，所以对<code>/src</code>文件夹文件做
+编辑后都需要重新编译，若提示未安装<code>yarn</code>，可先使用命令<code>npm install -g yarn</code>进行安装。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><span class="lnt">1
@@ -212,14 +250,13 @@ $ git push -u origin master</pre></td></tr></table>
 </span><span class="lnt">5
 </span></pre></td>
 <td class="lntd">
-<pre class="chroma">$ cd public
-$ git add .
-$ git status
-$ git commit -m &#34;post&#34;
-$ git push</pre></td></tr></table>
+<pre class="chroma">cd ./themes/even/
+# install dependencies
+yarn install
+# build
+yarn build</pre></td></tr></table>
 </div>
-</div>
-<p>部署到GitHub可能不会立刻生效，晚上怎么弄都显示没有url地址，早上醒来一看居然好了~~~</p></li>
+</div></li>
 </ul>
     </div>
 
@@ -243,9 +280,9 @@ $ git push</pre></td></tr></table>
           <a href="/tags/hugo/">hugo</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/even-preview/">
+        <a class="prev" href="/post/haolegejie/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">Theme preview</span>
+            <span class="prev-text nav-default">好了歌解</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
         <a class="next" href="/post/hexorelated/">
