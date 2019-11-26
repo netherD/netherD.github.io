@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Shelter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 Nov 2019 20:02:01 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 26 Nov 2019 10:27:31 +0800</lastBuildDate>
     
 	<atom:link href="https://netherd.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,6 +18,19 @@
       
       <guid>https://netherd.github.io/post/even-preview/</guid>
       <description>Based on MarkdownPreview test.md. Markdown 1 2 3 4 5 6 7 8 # H1 ## H2 ### H3 #### H4 ##### H5 ###### H6 ### Duplicate Header ### Duplicate Header H1 H2 H3 H4 H5 H6 Duplicate Header Duplicate Header Paragraphs 1 2 3 4 This is a paragraph. I am still part of the paragraph. New paragraph. This is a paragraph. I am still part of the paragraph.</description>
+    </item>
+    
+    <item>
+      <title>hugo安装使用</title>
+      <link>https://netherd.github.io/post/hugo/</link>
+      <pubDate>Tue, 26 Nov 2019 10:27:31 +0800</pubDate>
+      
+      <guid>https://netherd.github.io/post/hugo/</guid>
+      <description>&lt;p&gt;初入Blog, 一开始用的&lt;code&gt;Hexo&lt;/code&gt;，非常喜欢&lt;code&gt;Hexo&lt;/code&gt;的&lt;code&gt;Next&lt;/code&gt;主题,中文社区中也有很多教程，
+对于我来说非常友好，但是思考再三，还是决定换到&lt;code&gt;hugo&lt;/code&gt;。
+- 首先&lt;code&gt;Hugo&lt;/code&gt;的安装很简单，不需要一大堆的依赖，只需要一个二进制文件，以后换设备很方便；
+- &lt;code&gt;Hugo&lt;/code&gt;编译运行起来确实要比&lt;code&gt;Hexo&lt;/code&gt;速度快很多；
+- 作为一个只是自己自言自语的角落，样式什么的也就那样，不是很重要。&lt;/p&gt;</description>
     </item>
     
     <item>
