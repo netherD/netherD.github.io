@@ -65,7 +65,7 @@ Hugo编译运行起来确实要比Hexo速度快很多；
 
 <meta itemprop="datePublished" content="2019-11-26T10:27:31&#43;08:00" />
 <meta itemprop="dateModified" content="2019-11-26T10:27:31&#43;08:00" />
-<meta itemprop="wordCount" content="831">
+<meta itemprop="wordCount" content="862">
 
 
 
@@ -153,7 +153,7 @@ Hugo编译运行起来确实要比Hexo速度快很多；
         <div class="post-category">
             <a href="/categories/blog/"> Blog </a>
             </div>
-          <span class="more-meta"> 831 words </span>
+          <span class="more-meta"> 862 words </span>
           <span class="more-meta"> 2 mins read </span>
         
       </div>
@@ -169,6 +169,7 @@ Hugo编译运行起来确实要比Hexo速度快很多；
 <li><a href="#注意的地方">注意的地方</a></li>
 <li><a href="#博客中展示github-chart">博客中展示GitHub Chart</a></li>
 <li><a href="#个人文件的位置">个人文件的位置</a></li>
+<li><a href="#重新编译">重新编译</a></li>
 </ul>
 </nav>
   </div>
@@ -280,6 +281,25 @@ yarn build</pre></td></tr></table>
 <pre class="chroma">[点击这里下载 test.pdf](/files/test.pdf)</pre></td></tr></table>
 </div>
 </div>
+<h1 id="重新编译">重新编译</h1>
+
+<p>If you changed any file under <code>/src/</code>, you need to rebuild.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">cd ./themes/even/
+# install dependencies
+yarn install
+# build
+yarn build</pre></td></tr></table>
+</div>
+</div>
     </div>
 
     <div class="post-copyright">
@@ -327,7 +347,7 @@ yarn build</pre></td></tr></table>
 
     <footer id="footer" class="footer">
       <div class="social-links">
- 
+
 </div>
 
 <div class="copyright">
