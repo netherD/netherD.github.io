@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="NetherDrake" /><meta name="description" content="测试 使用秋水大神的代码:
+<meta name="author" content="NetherDrake" /><meta name="description" content="测试VPS性能 使用秋水大神的代码:
 1 2 3  wget -qO- bench.sh | bash # 或者 curl -Lso- bench.sh | bash  " /><meta name="keywords" content="Blog, 记录, even" />
 
 
@@ -40,7 +40,7 @@
 
 
 <meta property="og:title" content="VPS" />
-<meta property="og:description" content="测试
+<meta property="og:description" content="测试VPS性能
 
 使用秋水大神的代码:
 
@@ -60,7 +60,7 @@ curl -Lso- bench.sh | bash
 <meta property="article:published_time" content="2019-12-13T21:21:17+08:00" />
 <meta property="article:modified_time" content="2019-12-13T21:21:17+08:00" />
 <meta itemprop="name" content="VPS">
-<meta itemprop="description" content="测试
+<meta itemprop="description" content="测试VPS性能
 
 使用秋水大神的代码:
 
@@ -79,14 +79,14 @@ curl -Lso- bench.sh | bash
 
 <meta itemprop="datePublished" content="2019-12-13T21:21:17&#43;08:00" />
 <meta itemprop="dateModified" content="2019-12-13T21:21:17&#43;08:00" />
-<meta itemprop="wordCount" content="28">
+<meta itemprop="wordCount" content="661">
 
 
 
 <meta itemprop="keywords" content="VPS," />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="VPS"/>
-<meta name="twitter:description" content="测试
+<meta name="twitter:description" content="测试VPS性能
 
 使用秋水大神的代码:
 
@@ -174,8 +174,8 @@ curl -Lso- bench.sh | bash
         <div class="post-category">
             <a href="/categories/vps/"> vps </a>
             </div>
-          <span class="more-meta"> 28 words </span>
-          <span class="more-meta"> 1 min read </span>
+          <span class="more-meta"> 661 words </span>
+          <span class="more-meta"> 2 mins read </span>
         
       </div>
     </header>
@@ -185,13 +185,22 @@ curl -Lso- bench.sh | bash
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
 <ul>
-<li><a href="#测试">测试</a></li>
+<li><a href="#测试vps性能">测试VPS性能</a></li>
+<li><a href="#vps被ddos">VPS被DDOS?</a>
+<ul>
+<li><a href="#1-检查当前都有谁在登录">1.检查当前都有谁在登录</a></li>
+<li><a href="#2-谁曾经登陆过">2.谁曾经登陆过？</a></li>
+<li><a href="#3-回顾命令历史">3.回顾命令历史</a></li>
+<li><a href="#4-看看80端口上有多少连接">4.看看80端口上有多少连接</a></li>
+<li><a href="#5-每个ip连接数量">5.每个IP连接数量</a></li>
+<li><a href="#6-屏蔽ip">6.屏蔽IP</a></li>
+</ul></li>
 </ul>
 </nav>
   </div>
 </div>
     <div class="post-content">
-      <h1 id="测试">测试</h1>
+      <h1 id="测试vps性能">测试VPS性能</h1>
 
 <p>使用秋水大神的代码:</p>
 <div class="highlight"><div class="chroma">
@@ -204,6 +213,60 @@ curl -Lso- bench.sh | bash
 <pre class="chroma">wget -qO- bench.sh | bash
 # 或者
 curl -Lso- bench.sh | bash</pre></td></tr></table>
+</div>
+</div>
+<h1 id="vps被ddos">VPS被DDOS?</h1>
+
+<h2 id="1-检查当前都有谁在登录">1.检查当前都有谁在登录</h2>
+
+<p>运行命令<code>w</code></p>
+
+<h2 id="2-谁曾经登陆过">2.谁曾经登陆过？</h2>
+
+<p>Linux 服务器会记录下哪些用户，从哪个IP，在什么时候登录的以及登录了多长时间这些信息。使用<code>last</code> 命令可以查看这些信息。</p>
+
+<p>登录后的历史记录会记录到二进制的文件中(根据自己实际情况找到文件位置)。</p>
+
+<h2 id="3-回顾命令历史">3.回顾命令历史</h2>
+
+<p>这个层次的攻击者通常不会注意掩盖命令的历史记录，因此运行 <code>history</code>命令会显示出他们曾经做过的所有事情。 一定留意有没有用 <code>wget</code> 或 <code>curl</code> 命令来下载类似垃圾邮件机器人或者挖矿程序之类的非常规软件。</p>
+
+<p>命令历史存储在 <code>~/.bash_history</code>文件中，因此有些攻击者会删除该文件以掩盖他们的所作所为。跟登录历史一样，若你运行 <code>history</code> 命令却没有输出任何东西那就表示历史文件被删掉了。这也是个不妙的信号，你需要很小心地检查一下服务器了。</p>
+
+<h2 id="4-看看80端口上有多少连接">4.看看80端口上有多少连接</h2>
+
+<p>不是IP，请注意区别，一个IP可能发起很多个连接。</p>
+
+<p><code>netstat -nat|grep -i &quot;80&quot;|wc -l</code></p>
+
+<p><code>netstat -nat</code>是所有端口的连接状况;
+<code>gerp -i &quot;80&quot;</code>是单独打印80端口的。 可以修改显示其他端口情况。</p>
+
+<h2 id="5-每个ip连接数量">5.每个IP连接数量</h2>
+
+<p><code>netstat -ntu | awk '{print $5}' | cut -d: -f1 | sort | uniq -c | sort -n</code></p>
+
+<h2 id="6-屏蔽ip">6.屏蔽IP</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">#屏蔽单个IP的命令是
+iptables -I INPUT -s 111.111.111.111 -j DROP
+#封整个段即从123.0.0.1到123.255.255.254的命令
+iptables -I INPUT -s 123.0.0.0/8 -j DROP
+#封IP段即从123.45.0.1到123.45.255.254的命令
+iptables -I INPUT -s 124.45.0.0/16 -j DROP
+#封IP段即从123.45.6.1到123.45.6.254的命令是
+iptables -I INPUT -s 123.45.6.0/24 -j DROP</pre></td></tr></table>
 </div>
 </div>
     </div>
