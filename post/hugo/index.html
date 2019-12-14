@@ -65,7 +65,7 @@ Hugo编译运行起来确实要比Hexo速度快很多；
 
 <meta itemprop="datePublished" content="2019-11-26T10:27:31&#43;08:00" />
 <meta itemprop="dateModified" content="2019-11-26T10:27:31&#43;08:00" />
-<meta itemprop="wordCount" content="862">
+<meta itemprop="wordCount" content="958">
 
 
 
@@ -153,7 +153,7 @@ Hugo编译运行起来确实要比Hexo速度快很多；
         <div class="post-category">
             <a href="/categories/blog/"> Blog </a>
             </div>
-          <span class="more-meta"> 862 words </span>
+          <span class="more-meta"> 958 words </span>
           <span class="more-meta"> 2 mins read </span>
         
       </div>
@@ -170,6 +170,7 @@ Hugo编译运行起来确实要比Hexo速度快很多；
 <li><a href="#博客中展示github-chart">博客中展示GitHub Chart</a></li>
 <li><a href="#个人文件的位置">个人文件的位置</a></li>
 <li><a href="#重新编译">重新编译</a></li>
+<li><a href="#一键部署">一键部署</a></li>
 </ul>
 </nav>
   </div>
@@ -298,6 +299,57 @@ yarn build</pre></td></tr></table>
 yarn install
 # build
 yarn build</pre></td></tr></table>
+</div>
+</div>
+<h1 id="一键部署">一键部署</h1>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma"><span class="cp">#!/bin/bash
+</span><span class="cp"></span><span class="nb">echo</span> -e <span class="s2">&#34;\033[0;32mDeploying updates to GitHub...\033[0m&#34;</span>
+
+<span class="c1"># Build the project.</span>
+hugo <span class="c1"># if using a theme, replace by `hugo -t &lt;yourtheme&gt;`</span>
+
+<span class="c1"># Go To Public folder</span>
+<span class="nb">cd</span> public
+
+<span class="c1"># Add changes to git.</span>
+git add -A
+
+<span class="c1"># Commit changes.</span>
+<span class="nv">msg</span><span class="o">=</span><span class="s2">&#34;rebuilding site `date`&#34;</span>
+<span class="k">if</span> <span class="o">[</span> <span class="nv">$#</span> -eq <span class="m">1</span> <span class="o">]</span>
+<span class="k">then</span> <span class="nv">msg</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span>
+<span class="k">fi</span>
+git commit -m <span class="s2">&#34;</span><span class="nv">$msg</span><span class="s2">&#34;</span>
+
+<span class="c1"># Push source and build repos.</span>
+git push origin master# Come Back
+<span class="nb">cd</span> ..</pre></td></tr></table>
 </div>
 </div>
     </div>
