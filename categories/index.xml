@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Shelter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Dec 2019 21:21:17 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 17 Dec 2019 10:02:16 +0800</lastBuildDate>
     
 	<atom:link href="https://netherd.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>tools</title>
+      <link>https://netherd.github.io/categories/tools/</link>
+      <pubDate>Tue, 17 Dec 2019 10:02:16 +0800</pubDate>
+      
+      <guid>https://netherd.github.io/categories/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>工具</title>
+      <link>https://netherd.github.io/categories/%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Tue, 17 Dec 2019 10:02:16 +0800</pubDate>
+      
+      <guid>https://netherd.github.io/categories/%E5%B7%A5%E5%85%B7/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>vps</title>

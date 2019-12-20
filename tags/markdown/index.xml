@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MarkDown on Shelter</title>
+    <link>https://netherd.github.io/tags/markdown/</link>
+    <description>Recent content in MarkDown on Shelter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 17 Dec 2019 10:02:16 +0800</lastBuildDate>
+    
+	<atom:link href="https://netherd.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Telegram</title>
+      <link>https://netherd.github.io/post/telegram/</link>
+      <pubDate>Tue, 17 Dec 2019 10:02:16 +0800</pubDate>
+      
+      <guid>https://netherd.github.io/post/telegram/</guid>
+      <description>&lt;h1 id=&#34;特殊格式&#34;&gt;特殊格式&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;超链接[Ctrl+K] = create link (&lt;a href=&#34;https://my.website&#34;&gt;https://my.website&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[Ctrl+B] = bold 或者在文中用&lt;code&gt;**bold**&lt;/code&gt;实现&lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;~~delete~~&lt;/code&gt; 显示&lt;del&gt;delete&lt;/del&gt;效果&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[Ctrl+I] = italic&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[Ctrl+Shift+M] = monospace&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[Ctrl+Shift+N] = clear formatting&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
