@@ -6,10 +6,31 @@
     <description>Recent content in Posts on Shelter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Dec 2019 10:02:16 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jan 2020 19:33:36 +0800</lastBuildDate>
     
 	<atom:link href="https://netherd.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gcp</title>
+      <link>https://netherd.github.io/post/gcp/</link>
+      <pubDate>Sun, 05 Jan 2020 19:33:36 +0800</pubDate>
+      
+      <guid>https://netherd.github.io/post/gcp/</guid>
+      <description>&lt;h1 id=&#34;注意的事项&#34;&gt;注意的事项&lt;/h1&gt;
+
+&lt;h1 id=&#34;修改防火墙规则&#34;&gt;修改防火墙规则&lt;/h1&gt;
+
+&lt;h1 id=&#34;xshell连接-https-blog-csdn-net-datadev-sh-article-details-79593360&#34;&gt;&lt;a href=&#34;https://blog.csdn.net/datadev_sh/article/details/79593360&#34;&gt;xshell连接&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h2 id=&#34;新建普通用户登入&#34;&gt;新建普通用户登入&lt;/h2&gt;
+
+&lt;h2 id=&#34;本地用xshell生成密钥&#34;&gt;本地用xshell生成密钥&lt;/h2&gt;
+
+&lt;h2 id=&#34;将密钥配置到谷歌云&#34;&gt;将密钥配置到谷歌云&lt;/h2&gt;
+
+&lt;h2 id=&#34;用xshell连接&#34;&gt;用xshell连接&lt;/h2&gt;</description>
+    </item>
     
     <item>
       <title>Telegram</title>
