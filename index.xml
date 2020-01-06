@@ -32,7 +32,10 @@ THEN THEY CAME FOR ME, AND BY THAT TIME NO ONE WAS LEFT TO SPEAK UP.</descriptio
       <guid>https://netherd.github.io/post/gcp/</guid>
       <description>&lt;h1 id=&#34;注意的事项&#34;&gt;注意的事项&lt;/h1&gt;
 
-&lt;h1 id=&#34;修改防火墙规则&#34;&gt;修改防火墙规则&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;如果只是为了扶墙，选择&lt;strong&gt;微型&lt;/strong&gt;的就行每月5刀多。&lt;/li&gt;
+&lt;li&gt;修改防火墙规则为允许&lt;code&gt;http&lt;/code&gt;和&lt;code&gt;https&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h1 id=&#34;xshell连接-https-blog-csdn-net-datadev-sh-article-details-79593360&#34;&gt;&lt;a href=&#34;https://blog.csdn.net/datadev_sh/article/details/79593360&#34;&gt;xshell连接&lt;/a&gt;&lt;/h1&gt;
 
