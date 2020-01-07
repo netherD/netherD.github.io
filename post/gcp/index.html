@@ -80,7 +80,7 @@ xshell连接
 
 <meta itemprop="datePublished" content="2020-01-05T19:33:36&#43;08:00" />
 <meta itemprop="dateModified" content="2020-01-05T19:33:36&#43;08:00" />
-<meta itemprop="wordCount" content="95">
+<meta itemprop="wordCount" content="241">
 
 
 
@@ -176,7 +176,7 @@ xshell连接
         <div class="post-category">
             <a href="/categories/gcp/"> gcp </a>
             </div>
-          <span class="more-meta"> 95 words </span>
+          <span class="more-meta"> 241 words </span>
           <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -194,6 +194,7 @@ xshell连接
 <li><a href="#本地用xshell生成密钥">本地用xshell生成密钥</a></li>
 <li><a href="#将密钥配置到谷歌云">将密钥配置到谷歌云</a></li>
 <li><a href="#用xshell连接">用xshell连接</a></li>
+<li><a href="#v2ray相关">v2ray相关</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -216,6 +217,29 @@ xshell连接
 <h2 id="将密钥配置到谷歌云">将密钥配置到谷歌云</h2>
 
 <h2 id="用xshell连接">用xshell连接</h2>
+
+<h2 id="v2ray相关">v2ray相关</h2>
+
+<p>log日志<code>/var/log/v2ray</code></p>
+
+<p>查看配置文件 /etc/v2ray/config.json，里面有一段类似于如下的内容：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">&#34;log&#34;: {
+  &#34;access&#34;: &#34;访问日志文件地址&#34;,
+  &#34;error&#34;: &#34;错误日志文件地址&#34;,
+  &#34;loglevel&#34;: &#34;warning&#34;
+}</pre></td></tr></table>
+</div>
+</div>
+<p>把 <code>access</code> 或是 <code>error</code> 设为空字符串，就可以不启用对应的那一项日志。</p>
     </div>
 
     <div class="post-copyright">
