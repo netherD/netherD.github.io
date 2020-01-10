@@ -79,7 +79,7 @@ curl -Lso- bench.sh | bash
 
 <meta itemprop="datePublished" content="2019-12-13T21:21:17&#43;08:00" />
 <meta itemprop="dateModified" content="2019-12-13T21:21:17&#43;08:00" />
-<meta itemprop="wordCount" content="661">
+<meta itemprop="wordCount" content="790">
 
 
 
@@ -174,7 +174,7 @@ curl -Lso- bench.sh | bash
         <div class="post-category">
             <a href="/categories/vps/"> vps </a>
             </div>
-          <span class="more-meta"> 661 words </span>
+          <span class="more-meta"> 790 words </span>
           <span class="more-meta"> 2 mins read </span>
         
       </div>
@@ -195,6 +195,7 @@ curl -Lso- bench.sh | bash
 <li><a href="#5-每个ip连接数量">5.每个IP连接数量</a></li>
 <li><a href="#6-屏蔽ip">6.屏蔽IP</a></li>
 </ul></li>
+<li><a href="#vps安装bbr加速">VPS安装bbr加速</a></li>
 </ul>
 </nav>
   </div>
@@ -268,6 +269,49 @@ iptables -I INPUT -s 124.45.0.0/16 -j DROP
 #封IP段即从123.45.6.1到123.45.6.254的命令是
 iptables -I INPUT -s 123.45.6.0/24 -j DROP</pre></td></tr></table>
 </div>
+</div>
+<h1 id="vps安装bbr加速">VPS安装bbr加速</h1>
+
+<ul>
+<li><p>首先执行一键脚本</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh &amp;&amp; chmod +x bbr.sh &amp;&amp; ./bbr.sh</pre></td></tr></table>
+</div>
+</div></li>
+
+<li><p>一键开启BBR加速并重启VPS后再次连上VPS,执行代码检查是否安装成功</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">sysctl net.ipv4.tcp_available_congestion_control</pre></td></tr></table>
+</div>
+</div>
+<p>如果返回结果里有BBR则说明BBR开启成功，如下（顺序可以不一样）：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">net.ipv4.tcp_available_congestion_control = reno cubic bbr</pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+
+<p>具体文章参考<sup class="footnote-ref" id="fnref:bbr"><a href="#fn:bbr">1</a></sup>。</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:bbr">基本都是秋水大神的代码， <a href="https://www.vpsgo.com/install-bbr-to-speed-up-vps.html">e.g.</a>
+ <a class="footnote-return" href="#fnref:bbr"><sup>[return]</sup></a></li>
+</ol>
 </div>
     </div>
 
