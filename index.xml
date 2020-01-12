@@ -30,11 +30,11 @@ THEN THEY CAME FOR ME, AND BY THAT TIME NO ONE WAS LEFT TO SPEAK UP.</descriptio
       <pubDate>Fri, 10 Jan 2020 10:06:02 +0800</pubDate>
       
       <guid>https://netherd.github.io/post/documents/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://netherd.github.io/download/wwn_resume.pdf&#34;&gt;下载&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://netherd.github.io/resume/wwn_resume.pdf&#34;&gt;下载&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Gcp</title>
+      <title>Google Clould Platform</title>
       <link>https://netherd.github.io/post/gcp/</link>
       <pubDate>Sun, 05 Jan 2020 19:33:36 +0800</pubDate>
       
@@ -239,12 +239,12 @@ curl -Lso- bench.sh | bash&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
     </item>
     
     <item>
-      <title>Install Shadowsocks</title>
-      <link>https://netherd.github.io/post/install-shadowsocks/</link>
+      <title>扶墙相关</title>
+      <link>https://netherd.github.io/post/ladders/</link>
       <pubDate>Sun, 24 Nov 2019 13:41:44 +0800</pubDate>
       
-      <guid>https://netherd.github.io/post/install-shadowsocks/</guid>
-      <description>Pip安装 虽然有很多一键安装方法，但是这个是我最先尝试的，记录一下。 安装pip 1 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py 然后，输入 1 python get-pip.py 安装shadowsocks 输入 1 pip install</description>
+      <guid>https://netherd.github.io/post/ladders/</guid>
+      <description>Shadowsocks Pip安装 虽然有很多一键安装方法，但是这个是我最先尝试的，记录一下。 安装pip 1 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py 然后，输入 1 python get-pip.py 安装shadowsocks 输入 1 pip</description>
     </item>
     
     <item>

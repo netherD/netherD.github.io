@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Install Shadowsocks</title>
-      <link>https://netherd.github.io/post/install-shadowsocks/</link>
+      <title>扶墙相关</title>
+      <link>https://netherd.github.io/post/ladders/</link>
       <pubDate>Sun, 24 Nov 2019 13:41:44 +0800</pubDate>
       
-      <guid>https://netherd.github.io/post/install-shadowsocks/</guid>
-      <description>Pip安装 虽然有很多一键安装方法，但是这个是我最先尝试的，记录一下。 安装pip 1 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py 然后，输入 1 python get-pip.py 安装shadowsocks 输入 1 pip install</description>
+      <guid>https://netherd.github.io/post/ladders/</guid>
+      <description>Shadowsocks Pip安装 虽然有很多一键安装方法，但是这个是我最先尝试的，记录一下。 安装pip 1 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py 然后，输入 1 python get-pip.py 安装shadowsocks 输入 1 pip</description>
     </item>
     
   </channel>
