@@ -50,7 +50,7 @@
 
 <meta itemprop="datePublished" content="2019-11-24T13:41:44&#43;08:00" />
 <meta itemprop="dateModified" content="2019-11-24T13:41:44&#43;08:00" />
-<meta itemprop="wordCount" content="786">
+<meta itemprop="wordCount" content="1295">
 
 
 
@@ -131,8 +131,8 @@
         <div class="post-category">
             <a href="/categories/%E7%BF%BB%E5%A2%99/"> 翻墙 </a>
             </div>
-          <span class="more-meta"> 786 words </span>
-          <span class="more-meta"> 2 mins read </span>
+          <span class="more-meta"> 1295 words </span>
+          <span class="more-meta"> 3 mins read </span>
         
       </div>
     </header>
@@ -155,6 +155,14 @@
 </ul></li>
 <li><a href="#v2ray相关">v2ray相关</a></li>
 <li><a href="#利用github制作订阅地址">利用GitHub制作订阅地址</a></li>
+<li><a href="#v2ray链接转换为clash">v2ray链接转换为clash</a>
+<ul>
+<li><a href="#在线转换的接口">在线转换的接口</a>
+<ul>
+<li><a href="#第一个-https-limbopro-xyz-archives-subconverter-html"><a href="https://limbopro.xyz/archives/subconverter.html">第一个</a>。</a></li>
+<li><a href="#第二个-https-scaleya-netlify-com-posts-7"><a href="https://scaleya.netlify.com/posts/7/">第二个</a></a></li>
+</ul></li>
+</ul></li>
 </ul>
 </nav>
   </div>
@@ -366,6 +374,65 @@ systemctl status shadowsocks</pre></td></tr></table>
 <p>思路简单来说就是将<code>ss/ssr/v2ray</code>的连接通过<code>base64</code>编码，将编码后得到的信息存储在GitHub新建的项目的<code>readme.md</code>文件中。在<code>readme.md</code>文件的<code>raw</code>的选项，点开它会跳出一个新的网页有好多乱码，这个网页就是创建好的订阅地址。</p>
 
 <p>详细步骤参见<a href="https://aishangyou.tube/?p=6885">博客</a>。</p>
+
+<h1 id="v2ray链接转换为clash">v2ray链接转换为clash</h1>
+
+<h2 id="在线转换的接口">在线转换的接口</h2>
+
+<h3 id="第一个-https-limbopro-xyz-archives-subconverter-html"><a href="https://limbopro.xyz/archives/subconverter.html">第一个</a>。</h3>
+
+<p>具体：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">https://bnbpro.xyz/sub?target=clash&amp;url=%URL_ENCODED_LINKS%；</pre></td></tr></table>
+</div>
+</div>
+<p>0.上述链接中的clash为转换目标类型，表示你要在clash使用该订阅；</p>
+
+<p>1.上述链接中的%URL_ENCODED_LINKS%：需将之替换为经过ENCODE(编码)后的链接；</p>
+
+<p>2.填完，即可复制到相应软体中进行订阅使用；</p>
+
+<p>使用API转换原机场订阅为你需要的软体订阅格式（例如clash/Quantumult/QuantumultX/Surge3/4等）</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">https://bnbpro.xyz/sub?target=clash&amp;url=%URL_ENCODED_LINKS% #转换为clash订阅
+https://bnbpro.xyz/sub?target=clashr&amp;url=%URL_ENCODED_LINKS% #转换为clashr订阅
+https://bnbpro.xyz/sub?target=quan&amp;url=%URL_ENCODED_LINKS% #转换为Quantumult订阅
+https://bnbpro.xyz/sub?target=quanx&amp;url=%URL_ENCODED_LINKS% #转换为QuantumultX订阅
+https://bnbpro.xyz/sub?target=surge?ver=4&amp;url=%URL_ENCODED_LINKS% #转换为surge4订阅
+https://bnbpro.xyz/sub?target=surfboard&amp;url=%URL_ENCODED_LINKS% #转换为surfboard订阅
+https://bnbpro.xyz/sub?target=v2ray&amp;url=%URL_ENCODED_LINKS% #转换为v2ray订阅</pre></td></tr></table>
+</div>
+</div>
+<h3 id="第二个-https-scaleya-netlify-com-posts-7"><a href="https://scaleya.netlify.com/posts/7/">第二个</a></h3>
+
+<ol>
+<li>V2rayNG订阅链接进行base64编码
+比如订阅链接 <code>https://scaleya.netlify.com/share/v2ray_sub</code></li>
+</ol>
+
+<p>经过网站base64编码后变成</p>
+
+<p><code>aHR0cHM6Ly9zY2FsZXlhLm5ldGxpZnkuY29tL3NoYXJlL3YycmF5X3N1Yg==</code> 记作<code>#</code></p>
+
+<ol>
+<li>补全链接 调用API
+将<code>#</code>换成你自己的, 浏览器打开
+<code>https://tools.绒布球.site/api/v1/subtrans?url=#&amp;dest=clash</code></li>
+</ol>
 <div class="footnotes">
 
 <hr />
