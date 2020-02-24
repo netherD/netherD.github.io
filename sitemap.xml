@@ -9,6 +9,27 @@
   </url>
   
   <url>
+    <loc>https://netherd.github.io/post/</loc>
+    <lastmod>2020-02-24T15:31:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://netherd.github.io/</loc>
+    <lastmod>2020-02-24T15:31:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://netherd.github.io/post/solvedproblems/</loc>
+    <lastmod>2020-02-24T15:31:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://netherd.github.io/categories/</loc>
     <lastmod>2020-02-21T12:26:46+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -31,20 +52,6 @@
   
   <url>
     <loc>https://netherd.github.io/categories/game/</loc>
-    <lastmod>2020-02-21T12:26:46+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://netherd.github.io/post/</loc>
-    <lastmod>2020-02-21T12:26:46+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://netherd.github.io/</loc>
     <lastmod>2020-02-21T12:26:46+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -79,14 +86,14 @@
   </url>
   
   <url>
-    <loc>https://netherd.github.io/categories/gcp/</loc>
+    <loc>https://netherd.github.io/tags/gcp/</loc>
     <lastmod>2020-01-05T19:33:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://netherd.github.io/tags/gcp/</loc>
+    <loc>https://netherd.github.io/categories/gcp/</loc>
     <lastmod>2020-01-05T19:33:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -471,14 +478,14 @@
   </url>
   
   <url>
-    <loc>https://netherd.github.io/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/</loc>
+    <loc>https://netherd.github.io/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</loc>
     <lastmod>2017-08-30T01:53:34+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://netherd.github.io/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</loc>
+    <loc>https://netherd.github.io/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/</loc>
     <lastmod>2017-08-30T01:53:34+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -520,14 +527,14 @@
   </url>
   
   <url>
-    <loc>https://netherd.github.io/categories/shortcodes/</loc>
+    <loc>https://netherd.github.io/tags/shortcodes/</loc>
     <lastmod>2018-02-01T18:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://netherd.github.io/tags/shortcodes/</loc>
+    <loc>https://netherd.github.io/categories/shortcodes/</loc>
     <lastmod>2018-02-01T18:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
