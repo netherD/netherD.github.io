@@ -6,7 +6,7 @@
     <description>Recent content on Shelter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Feb 2020 15:31:27 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 16:50:53 +0800</lastBuildDate>
     
 	<atom:link href="https://netherd.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -31,6 +31,15 @@ THEN THEY CAME FOR ME, AND BY THAT TIME NO ONE WAS LEFT TO SPEAK UP.</descriptio
       
       <guid>https://netherd.github.io/news/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Rsstest</title>
+      <link>https://netherd.github.io/post/rsstest/</link>
+      <pubDate>Mon, 24 Feb 2020 16:50:53 +0800</pubDate>
+      
+      <guid>https://netherd.github.io/post/rsstest/</guid>
+      <description>&lt;p&gt;link to telegram&lt;/p&gt;</description>
     </item>
     
     <item>

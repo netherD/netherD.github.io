@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rss on Shelter</title>
+    <link>https://netherd.github.io/tags/rss/</link>
+    <description>Recent content in rss on Shelter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 24 Feb 2020 16:50:53 +0800</lastBuildDate>
+    
+	<atom:link href="https://netherd.github.io/tags/rss/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rsstest</title>
+      <link>https://netherd.github.io/post/rsstest/</link>
+      <pubDate>Mon, 24 Feb 2020 16:50:53 +0800</pubDate>
+      
+      <guid>https://netherd.github.io/post/rsstest/</guid>
+      <description>&lt;p&gt;link to telegram&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

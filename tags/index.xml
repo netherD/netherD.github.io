@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Shelter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Feb 2020 12:26:46 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 16:50:53 +0800</lastBuildDate>
     
 	<atom:link href="https://netherd.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>rss</title>
+      <link>https://netherd.github.io/tags/rss/</link>
+      <pubDate>Mon, 24 Feb 2020 16:50:53 +0800</pubDate>
+      
+      <guid>https://netherd.github.io/tags/rss/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Civilization_VI</title>
