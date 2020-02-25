@@ -63,7 +63,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://netherd.github.io/post/telegram/" />
 <meta property="article:published_time" content="2019-12-17T10:02:16+08:00" />
-<meta property="article:modified_time" content="2019-12-17T10:02:16+08:00" />
+<meta property="article:modified_time" content="2020-02-25T16:23:44+08:00" />
 <meta itemprop="name" content="Telegram">
 <meta itemprop="description" content="特殊格式
 
@@ -83,8 +83,8 @@
 
 
 <meta itemprop="datePublished" content="2019-12-17T10:02:16&#43;08:00" />
-<meta itemprop="dateModified" content="2019-12-17T10:02:16&#43;08:00" />
-<meta itemprop="wordCount" content="63">
+<meta itemprop="dateModified" content="2020-02-25T16:23:44&#43;08:00" />
+<meta itemprop="wordCount" content="484">
 
 
 
@@ -184,7 +184,7 @@
             <a href="/categories/tools/"> tools </a>
             <a href="/categories/%E5%B7%A5%E5%85%B7/"> 工具 </a>
             </div>
-          <span class="more-meta"> 63 words </span>
+          <span class="more-meta"> 484 words </span>
           <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -196,6 +196,7 @@
     <nav id="TableOfContents">
 <ul>
 <li><a href="#特殊格式">特殊格式</a></li>
+<li><a href="#创建私聊bot">创建私聊bot</a></li>
 </ul>
 </nav>
   </div>
@@ -216,6 +217,45 @@
 
 <li><p>[Ctrl+Shift+N] = clear formatting</p></li>
 </ul>
+
+<h1 id="创建私聊bot">创建私聊bot</h1>
+
+<p>为什么要搭建它<sup class="footnote-ref" id="fnref:-"><a href="#fn:-">1</a></sup>：</p>
+
+<p>众所周知，+86号段的Telegram用户在私聊非+86用户时会受到限制（当然也可以通过 @SpamBot 申诉以解除限制），那么如果自己用的是非+86号码，平时又有很多+86用户需要联系自己，就可以让他们直接私聊机器人，由机器人作为传话筒，方便交流。
+使用机器人和别人聊天，一定程度上可以减少自己的窗口数量，也在一定程度上保护了自己的隐私。
+它能做什么:</p>
+
+<ul>
+<li>转发用户的消息</li>
+<li>通过机器人一对一地回复用户</li>
+<li>向使用过此机器人的用户发送广播消息</li>
+<li>执行一些简单的指令（需要进行一些高级操作，建议前往YouTube观看峰哥的电报机器人系列教程）</li>
+</ul>
+
+<p>搭建需要用到的两个Bot：</p>
+
+<ul>
+<li>@BotFather</li>
+<li>@LivegramBot</li>
+</ul>
+
+<p><a href="https://blog.618day.com/archives/523/">用很简单的方法</a>
+主要是:</p>
+
+<ul>
+<li>利用<code>@BotFather</code> 创建一个bot</li>
+<li>在<code>@LivegramBot</code> 中<code>/addbot</code>,然后将<code>@BotFather</code>返回的自己的bot<code>api</code>发送给<code>@livegramBot</code>,就基本上成功了。将你的bot拉到一个群组里，发送给这个bot的消息会自动发到那个群组中。</li>
+</ul>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:-"><a href="https://merlinblog.xyz/wiki/telebot.html">https://merlinblog.xyz/wiki/telebot.html</a>
+ <a class="footnote-return" href="#fnref:-"><sup>[return]</sup></a></li>
+</ol>
+</div>
     </div>
 
     <div class="post-copyright">
@@ -226,7 +266,7 @@
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-        2019-12-17
+        2020-02-25
         
     </span>
   </p>

@@ -17,7 +17,7 @@
   
   <url>
     <loc>https://netherd.github.io/post/</loc>
-    <lastmod>2020-02-24T16:50:53+08:00</lastmod>
+    <lastmod>2020-02-25T16:23:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -38,14 +38,14 @@
   
   <url>
     <loc>https://netherd.github.io/</loc>
-    <lastmod>2020-02-24T16:50:53+08:00</lastmod>
+    <lastmod>2020-02-25T16:23:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://netherd.github.io/tags/</loc>
-    <lastmod>2020-02-24T16:50:53+08:00</lastmod>
+    <lastmod>2020-02-25T16:23:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -59,7 +59,7 @@
   
   <url>
     <loc>https://netherd.github.io/categories/</loc>
-    <lastmod>2020-02-21T12:26:46+08:00</lastmod>
+    <lastmod>2020-02-25T16:23:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -136,35 +136,35 @@
   
   <url>
     <loc>https://netherd.github.io/tags/markdown/</loc>
-    <lastmod>2019-12-17T10:02:16+08:00</lastmod>
+    <lastmod>2020-02-25T16:23:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://netherd.github.io/tags/telegram/</loc>
-    <lastmod>2019-12-17T10:02:16+08:00</lastmod>
+    <lastmod>2020-02-25T16:23:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://netherd.github.io/post/telegram/</loc>
-    <lastmod>2019-12-17T10:02:16+08:00</lastmod>
+    <lastmod>2020-02-25T16:23:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://netherd.github.io/categories/tools/</loc>
-    <lastmod>2019-12-17T10:02:16+08:00</lastmod>
+    <lastmod>2020-02-25T16:23:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://netherd.github.io/categories/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2019-12-17T10:02:16+08:00</lastmod>
+    <lastmod>2020-02-25T16:23:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -464,14 +464,14 @@
   </url>
   
   <url>
-    <loc>https://netherd.github.io/tags/english/</loc>
+    <loc>https://netherd.github.io/categories/english/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://netherd.github.io/categories/english/</loc>
+    <loc>https://netherd.github.io/tags/english/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -499,14 +499,14 @@
   </url>
   
   <url>
-    <loc>https://netherd.github.io/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/</loc>
+    <loc>https://netherd.github.io/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</loc>
     <lastmod>2017-08-30T01:53:34+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://netherd.github.io/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</loc>
+    <loc>https://netherd.github.io/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/</loc>
     <lastmod>2017-08-30T01:53:34+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -548,14 +548,14 @@
   </url>
   
   <url>
-    <loc>https://netherd.github.io/categories/shortcodes/</loc>
+    <loc>https://netherd.github.io/tags/shortcodes/</loc>
     <lastmod>2018-02-01T18:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://netherd.github.io/tags/shortcodes/</loc>
+    <loc>https://netherd.github.io/categories/shortcodes/</loc>
     <lastmod>2018-02-01T18:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -576,14 +576,14 @@
   </url>
   
   <url>
-    <loc>https://netherd.github.io/tags/syntax-highlighting/</loc>
+    <loc>https://netherd.github.io/categories/syntax-highlighting/</loc>
     <lastmod>2018-11-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://netherd.github.io/categories/syntax-highlighting/</loc>
+    <loc>https://netherd.github.io/tags/syntax-highlighting/</loc>
     <lastmod>2018-11-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
