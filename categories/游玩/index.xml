@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>游玩 on Shelter</title>
+    <link>https://netherd.github.io/categories/%E6%B8%B8%E7%8E%A9/</link>
+    <description>Recent content in 游玩 on Shelter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 18 Aug 2020 15:15:46 +0800</lastBuildDate>
+    
+	<atom:link href="https://netherd.github.io/categories/%E6%B8%B8%E7%8E%A9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>崇礼迷笛</title>
+      <link>https://netherd.github.io/post/chonglimidi/</link>
+      <pubDate>Tue, 18 Aug 2020 15:15:46 +0800</pubDate>
+      
+      <guid>https://netherd.github.io/post/chonglimidi/</guid>
+      <description>&lt;p&gt;逝去的永不复返，世守恒而今倍还，总有些闪闪发光的夜晚会被铭记。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

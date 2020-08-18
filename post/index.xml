@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Shelter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Feb 2020 16:50:53 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2020 15:15:46 +0800</lastBuildDate>
     
 	<atom:link href="https://netherd.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>崇礼迷笛</title>
+      <link>https://netherd.github.io/post/chonglimidi/</link>
+      <pubDate>Tue, 18 Aug 2020 15:15:46 +0800</pubDate>
+      
+      <guid>https://netherd.github.io/post/chonglimidi/</guid>
+      <description>&lt;p&gt;逝去的永不复返，世守恒而今倍还，总有些闪闪发光的夜晚会被铭记。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Rsstest</title>
