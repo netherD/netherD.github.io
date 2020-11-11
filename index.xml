@@ -5,19 +5,10 @@
     <description>Recent content on Shelter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2020 15:15:46 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate>
     
         <atom:link href="https://netherd.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Posts</title>
-      <link>https://netherd.github.io/post/</link>
-      <pubDate>Tue, 18 Aug 2020 15:15:46 +0800</pubDate>
-      
-      <guid>https://netherd.github.io/post/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
