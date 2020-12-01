@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Shelter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Nov 2020 14:20:53 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 01 Dec 2020 13:02:02 +0800</lastBuildDate>
     
 	<atom:link href="https://netherd.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>维权</title>
+      <link>https://netherd.github.io/categories/%E7%BB%B4%E6%9D%83/</link>
+      <pubDate>Tue, 01 Dec 2020 13:02:02 +0800</pubDate>
+      
+      <guid>https://netherd.github.io/categories/%E7%BB%B4%E6%9D%83/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>维权案例</title>
@@ -26,15 +35,6 @@
       <pubDate>Sun, 22 Nov 2020 12:49:18 +0800</pubDate>
       
       <guid>https://netherd.github.io/categories/%E5%B0%8F%E5%8C%BA%E7%AE%A1%E7%90%86/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>维权</title>
-      <link>https://netherd.github.io/categories/%E7%BB%B4%E6%9D%83/</link>
-      <pubDate>Wed, 18 Nov 2020 21:32:29 +0800</pubDate>
-      
-      <guid>https://netherd.github.io/categories/%E7%BB%B4%E6%9D%83/</guid>
       <description></description>
     </item>
     
