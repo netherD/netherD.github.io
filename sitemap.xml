@@ -37,21 +37,28 @@
   </url>
   
   <url>
-    <loc>https://netherd.github.io/categories/</loc>
-    <lastmod>2020-12-17T09:26:24+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://netherd.github.io/post/</loc>
-    <lastmod>2020-12-17T09:26:24+08:00</lastmod>
+    <lastmod>2020-12-25T09:36:24+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://netherd.github.io/</loc>
+    <lastmod>2020-12-25T09:36:24+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://netherd.github.io/post/software/</loc>
+    <lastmod>2020-12-25T09:36:24+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://netherd.github.io/categories/</loc>
     <lastmod>2020-12-17T09:26:24+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
