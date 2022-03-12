@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://netherd.github.io/post/parkingrules/</loc>
+    <lastmod>2022-03-12T15:50:06+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://netherd.github.io/post/police_timeline/</loc>
     <lastmod>2020-11-18T21:32:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -38,13 +45,6 @@
   
   <url>
     <loc>https://netherd.github.io/categories/</loc>
-    <lastmod>2022-03-12T15:50:06+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://netherd.github.io/post/parkingrules/</loc>
     <lastmod>2022-03-12T15:50:06+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
