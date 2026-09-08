@@ -1,2 +1,3 @@
 User-agent: *
+
 Sitemap: https://netherd.github.io/sitemap.xml
