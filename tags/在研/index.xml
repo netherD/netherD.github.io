@@ -1,61 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>在研 | NetherDrake</title>
-    <link>https://netherd.github.io/tags/%E5%9C%A8%E7%A0%94/</link>
-      <atom:link href="https://netherd.github.io/tags/%E5%9C%A8%E7%A0%94/index.xml" rel="self" type="application/rss+xml" />
-    <description>在研</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://netherd.github.io/media/icon_hu_eee4a95885829ab2.png</url>
-      <title>在研</title>
-      <link>https://netherd.github.io/tags/%E5%9C%A8%E7%A0%94/</link>
-    </image>
-    
-    <item>
-      <title>基于生成式人工智能的航网编排研究与设计</title>
-      <link>https://netherd.github.io/projects/genai-route-network/</link>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://netherd.github.io/projects/genai-route-network/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;海南航空控股股份有限公司 · 参与 · 在研&lt;/strong&gt; ｜ 编号 H04420260117 ｜ 2026–2027&lt;/p&gt;
-&lt;p&gt;基于生成式人工智能的航网编排研究与设计，探索大模型与生成式 AI 在航线网络规划与编排中的落地应用。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>民航领域高质量多模态数据底座建设</title>
-      <link>https://netherd.github.io/projects/multimodal-data-platform/</link>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://netherd.github.io/projects/multimodal-data-platform/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;企业横向 · 主持 · 在研&lt;/strong&gt; ｜ 编号 H04420260124 ｜ 2026.5–2026.12&lt;/p&gt;
-&lt;p&gt;面向民航业务场景构建高质量多模态数据底座，覆盖多源异构数据的采集、融合与治理，为下游智能分析与决策应用提供统一、可信的数据支撑。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>民航空中交通运行保障系统网络空间安全防御关键技术</title>
-      <link>https://netherd.github.io/projects/atc-network-security/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://netherd.github.io/projects/atc-network-security/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;国家重点研发计划 · 参与 · 在研&lt;/strong&gt; ｜ 编号 2025YFB3110502&lt;/p&gt;
-&lt;p&gt;面向民航空中交通运行保障系统，研究网络空间安全防御关键技术，提升空管系统整体的安全防护与抗攻击能力。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>基于区块链的安全可信广播式自动相关监视系统研究</title>
-      <link>https://netherd.github.io/projects/blockchain-adsb/</link>
-      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://netherd.github.io/projects/blockchain-adsb/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;国家自然科学基金 · 民航联合基金重点项目 · 参与 · 在研&lt;/strong&gt; ｜ 编号 U2433205 ｜ 2024.11–2028.12&lt;/p&gt;
-&lt;p&gt;基于区块链的安全可信广播式自动相关监视（ADS-B）系统研究，利用区块链技术提升空管监视数据的安全性与可信度。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>基于 SOC 数据的航班运行态势智能感知技术研究</title>
-      <link>https://netherd.github.io/projects/soc-flight-awareness/</link>
-      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://netherd.github.io/projects/soc-flight-awareness/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;南航信息中心 · 参与 · 在研&lt;/strong&gt; ｜ 编号 H04120240052 ｜ 2024.02–2026.02&lt;/p&gt;
-&lt;p&gt;基于 SOC（System Operation Center）数据的航班运行态势智能感知技术研究，提升航班运行监控与态势研判能力。&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>在研 | NetherDrake</title><link>https://netherd.github.io/tags/%E5%9C%A8%E7%A0%94/</link><atom:link href="https://netherd.github.io/tags/%E5%9C%A8%E7%A0%94/index.xml" rel="self" type="application/rss+xml"/><description>在研</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><image><url>https://netherd.github.io/media/icon_hu_eee4a95885829ab2.png</url><title>在研</title><link>https://netherd.github.io/tags/%E5%9C%A8%E7%A0%94/</link></image><item><title>基于生成式人工智能的航网编排研究与设计</title><link>https://netherd.github.io/projects/genai-route-network/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://netherd.github.io/projects/genai-route-network/</guid><description>&lt;p&gt;&lt;strong&gt;海南航空控股股份有限公司 · 参与 · 在研&lt;/strong&gt; ｜ 编号 H04420260117 ｜ 2026–2027&lt;/p&gt;
+&lt;p&gt;基于生成式人工智能的航网编排研究与设计，探索大模型与生成式 AI 在航线网络规划与编排中的落地应用。&lt;/p&gt;</description></item><item><title>民航领域高质量多模态数据底座建设</title><link>https://netherd.github.io/projects/multimodal-data-platform/</link><pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate><guid>https://netherd.github.io/projects/multimodal-data-platform/</guid><description>&lt;p&gt;&lt;strong&gt;企业横向 · 主持 · 在研&lt;/strong&gt; ｜ 编号 H04420260124 ｜ 2026.5–2026.12&lt;/p&gt;
+&lt;p&gt;面向民航业务场景构建高质量多模态数据底座，覆盖多源异构数据的采集、融合与治理，为下游智能分析与决策应用提供统一、可信的数据支撑。&lt;/p&gt;</description></item><item><title>民航空中交通运行保障系统网络空间安全防御关键技术</title><link>https://netherd.github.io/projects/atc-network-security/</link><pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate><guid>https://netherd.github.io/projects/atc-network-security/</guid><description>&lt;p&gt;&lt;strong&gt;国家重点研发计划 · 参与 · 在研&lt;/strong&gt; ｜ 编号 2025YFB3110502&lt;/p&gt;
+&lt;p&gt;面向民航空中交通运行保障系统，研究网络空间安全防御关键技术，提升空管系统整体的安全防护与抗攻击能力。&lt;/p&gt;</description></item><item><title>基于区块链的安全可信广播式自动相关监视系统研究</title><link>https://netherd.github.io/projects/blockchain-adsb/</link><pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate><guid>https://netherd.github.io/projects/blockchain-adsb/</guid><description>&lt;p&gt;&lt;strong&gt;国家自然科学基金 · 民航联合基金重点项目 · 参与 · 在研&lt;/strong&gt; ｜ 编号 U2433205 ｜ 2024.11–2028.12&lt;/p&gt;
+&lt;p&gt;基于区块链的安全可信广播式自动相关监视（ADS-B）系统研究，利用区块链技术提升空管监视数据的安全性与可信度。&lt;/p&gt;</description></item><item><title>基于 SOC 数据的航班运行态势智能感知技术研究</title><link>https://netherd.github.io/projects/soc-flight-awareness/</link><pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate><guid>https://netherd.github.io/projects/soc-flight-awareness/</guid><description>&lt;p&gt;&lt;strong&gt;南航信息中心 · 参与 · 在研&lt;/strong&gt; ｜ 编号 H04120240052 ｜ 2024.02–2026.02&lt;/p&gt;
+&lt;p&gt;基于 SOC（System Operation Center）数据的航班运行态势智能感知技术研究，提升航班运行监控与态势研判能力。&lt;/p&gt;</description></item></channel></rss>

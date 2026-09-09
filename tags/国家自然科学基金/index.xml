@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>国家自然科学基金 | NetherDrake</title>
-    <link>https://netherd.github.io/tags/%E5%9B%BD%E5%AE%B6%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E5%9F%BA%E9%87%91/</link>
-      <atom:link href="https://netherd.github.io/tags/%E5%9B%BD%E5%AE%B6%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E5%9F%BA%E9%87%91/index.xml" rel="self" type="application/rss+xml" />
-    <description>国家自然科学基金</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://netherd.github.io/media/icon_hu_eee4a95885829ab2.png</url>
-      <title>国家自然科学基金</title>
-      <link>https://netherd.github.io/tags/%E5%9B%BD%E5%AE%B6%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E5%9F%BA%E9%87%91/</link>
-    </image>
-    
-    <item>
-      <title>基于区块链的安全可信广播式自动相关监视系统研究</title>
-      <link>https://netherd.github.io/projects/blockchain-adsb/</link>
-      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://netherd.github.io/projects/blockchain-adsb/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;国家自然科学基金 · 民航联合基金重点项目 · 参与 · 在研&lt;/strong&gt; ｜ 编号 U2433205 ｜ 2024.11–2028.12&lt;/p&gt;
-&lt;p&gt;基于区块链的安全可信广播式自动相关监视（ADS-B）系统研究，利用区块链技术提升空管监视数据的安全性与可信度。&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>国家自然科学基金 | NetherDrake</title><link>https://netherd.github.io/tags/%E5%9B%BD%E5%AE%B6%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E5%9F%BA%E9%87%91/</link><atom:link href="https://netherd.github.io/tags/%E5%9B%BD%E5%AE%B6%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E5%9F%BA%E9%87%91/index.xml" rel="self" type="application/rss+xml"/><description>国家自然科学基金</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0000</lastBuildDate><image><url>https://netherd.github.io/media/icon_hu_eee4a95885829ab2.png</url><title>国家自然科学基金</title><link>https://netherd.github.io/tags/%E5%9B%BD%E5%AE%B6%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E5%9F%BA%E9%87%91/</link></image><item><title>基于区块链的安全可信广播式自动相关监视系统研究</title><link>https://netherd.github.io/projects/blockchain-adsb/</link><pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate><guid>https://netherd.github.io/projects/blockchain-adsb/</guid><description>&lt;p&gt;&lt;strong&gt;国家自然科学基金 · 民航联合基金重点项目 · 参与 · 在研&lt;/strong&gt; ｜ 编号 U2433205 ｜ 2024.11–2028.12&lt;/p&gt;
+&lt;p&gt;基于区块链的安全可信广播式自动相关监视（ADS-B）系统研究，利用区块链技术提升空管监视数据的安全性与可信度。&lt;/p&gt;</description></item></channel></rss>

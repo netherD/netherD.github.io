@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>海南航空 | NetherDrake</title>
-    <link>https://netherd.github.io/tags/%E6%B5%B7%E5%8D%97%E8%88%AA%E7%A9%BA/</link>
-      <atom:link href="https://netherd.github.io/tags/%E6%B5%B7%E5%8D%97%E8%88%AA%E7%A9%BA/index.xml" rel="self" type="application/rss+xml" />
-    <description>海南航空</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://netherd.github.io/media/icon_hu_eee4a95885829ab2.png</url>
-      <title>海南航空</title>
-      <link>https://netherd.github.io/tags/%E6%B5%B7%E5%8D%97%E8%88%AA%E7%A9%BA/</link>
-    </image>
-    
-    <item>
-      <title>基于生成式人工智能的航网编排研究与设计</title>
-      <link>https://netherd.github.io/projects/genai-route-network/</link>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://netherd.github.io/projects/genai-route-network/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;海南航空控股股份有限公司 · 参与 · 在研&lt;/strong&gt; ｜ 编号 H04420260117 ｜ 2026–2027&lt;/p&gt;
-&lt;p&gt;基于生成式人工智能的航网编排研究与设计，探索大模型与生成式 AI 在航线网络规划与编排中的落地应用。&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>海南航空 | NetherDrake</title><link>https://netherd.github.io/tags/%E6%B5%B7%E5%8D%97%E8%88%AA%E7%A9%BA/</link><atom:link href="https://netherd.github.io/tags/%E6%B5%B7%E5%8D%97%E8%88%AA%E7%A9%BA/index.xml" rel="self" type="application/rss+xml"/><description>海南航空</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><image><url>https://netherd.github.io/media/icon_hu_eee4a95885829ab2.png</url><title>海南航空</title><link>https://netherd.github.io/tags/%E6%B5%B7%E5%8D%97%E8%88%AA%E7%A9%BA/</link></image><item><title>基于生成式人工智能的航网编排研究与设计</title><link>https://netherd.github.io/projects/genai-route-network/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://netherd.github.io/projects/genai-route-network/</guid><description>&lt;p&gt;&lt;strong&gt;海南航空控股股份有限公司 · 参与 · 在研&lt;/strong&gt; ｜ 编号 H04420260117 ｜ 2026–2027&lt;/p&gt;
+&lt;p&gt;基于生成式人工智能的航网编排研究与设计，探索大模型与生成式 AI 在航线网络规划与编排中的落地应用。&lt;/p&gt;</description></item></channel></rss>
