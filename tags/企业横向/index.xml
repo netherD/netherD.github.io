@@ -1,2 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>企业横向 | NetherDrake</title><link>https://netherd.github.io/tags/%E4%BC%81%E4%B8%9A%E6%A8%AA%E5%90%91/</link><atom:link href="https://netherd.github.io/tags/%E4%BC%81%E4%B8%9A%E6%A8%AA%E5%90%91/index.xml" rel="self" type="application/rss+xml"/><description>企业横向</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://netherd.github.io/media/icon_hu_eee4a95885829ab2.png</url><title>企业横向</title><link>https://netherd.github.io/tags/%E4%BC%81%E4%B8%9A%E6%A8%AA%E5%90%91/</link></image><item><title>民航领域高质量多模态数据底座建设</title><link>https://netherd.github.io/projects/multimodal-data-platform/</link><pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate><guid>https://netherd.github.io/projects/multimodal-data-platform/</guid><description>&lt;p&gt;&lt;strong&gt;企业横向 · 主持 · 在研&lt;/strong&gt; ｜ 编号 H04420260124 ｜ 2026.5–2026.12&lt;/p&gt;
-&lt;p&gt;面向民航业务场景构建高质量多模态数据底座，覆盖多源异构数据的采集、融合与治理，为下游智能分析与决策应用提供统一、可信的数据支撑。&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>企业横向 | NetherDrake</title>
+    <link>https://netherd.github.io/tags/%E4%BC%81%E4%B8%9A%E6%A8%AA%E5%90%91/</link>
+      <atom:link href="https://netherd.github.io/tags/%E4%BC%81%E4%B8%9A%E6%A8%AA%E5%90%91/index.xml" rel="self" type="application/rss+xml" />
+    <description>企业横向</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://netherd.github.io/media/icon_hu_eee4a95885829ab2.png</url>
+      <title>企业横向</title>
+      <link>https://netherd.github.io/tags/%E4%BC%81%E4%B8%9A%E6%A8%AA%E5%90%91/</link>
+    </image>
+    
+    <item>
+      <title>民航领域高质量多模态数据底座建设</title>
+      <link>https://netherd.github.io/projects/multimodal-data-platform/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://netherd.github.io/projects/multimodal-data-platform/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;企业横向 · 主持 · 在研&lt;/strong&gt; ｜ 编号 H04420260124 ｜ 2026.5–2026.12&lt;/p&gt;
+&lt;p&gt;面向民航业务场景构建高质量多模态数据底座，覆盖多源异构数据的采集、融合与治理，为下游智能分析与决策应用提供统一、可信的数据支撑。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

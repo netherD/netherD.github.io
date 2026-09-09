@@ -1,3 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Spatio-Temporal Deep Learning | NetherDrake</title><link>https://netherd.github.io/tags/spatio-temporal-deep-learning/</link><atom:link href="https://netherd.github.io/tags/spatio-temporal-deep-learning/index.xml" rel="self" type="application/rss+xml"/><description>Spatio-Temporal Deep Learning</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 03 Aug 2026 00:00:00 +0000</lastBuildDate><image><url>https://netherd.github.io/media/icon_hu_eee4a95885829ab2.png</url><title>Spatio-Temporal Deep Learning</title><link>https://netherd.github.io/tags/spatio-temporal-deep-learning/</link></image><item><title>Awakening dormant nodes for robust long-term traffic forecasting</title><link>https://netherd.github.io/publications/dfe-eaai-2026/</link><pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate><guid>https://netherd.github.io/publications/dfe-eaai-2026/</guid><description>&lt;p&gt;Full text available via the
-link. Dataset:
-.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spatio-Temporal Deep Learning | NetherDrake</title>
+    <link>https://netherd.github.io/tags/spatio-temporal-deep-learning/</link>
+      <atom:link href="https://netherd.github.io/tags/spatio-temporal-deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Spatio-Temporal Deep Learning</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 03 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://netherd.github.io/media/icon_hu_eee4a95885829ab2.png</url>
+      <title>Spatio-Temporal Deep Learning</title>
+      <link>https://netherd.github.io/tags/spatio-temporal-deep-learning/</link>
+    </image>
+    
+    <item>
+      <title>Awakening dormant nodes for robust long-term traffic forecasting</title>
+      <link>https://netherd.github.io/publications/dfe-eaai-2026/</link>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://netherd.github.io/publications/dfe-eaai-2026/</guid>
+      <description>&lt;p&gt;Full text available via the 
+ link. Dataset: 
+.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
